@@ -7,6 +7,7 @@ A full-stack web application where users can explore, create, and review travel 
 ## 🚀 Live Demo
 
 https://riteshfirstproject-2.onrender.com
+after click Explore icon
 
 
 ## 📌 Features
