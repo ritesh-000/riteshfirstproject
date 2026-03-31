@@ -42,7 +42,11 @@ after click Explore icon
 ###Acknowledgment
 This project is inspired by full-stack development tutorials and practice.
 
+## ⚠️ Note
+Some UI elements like category filters (Trending, Farming, etc.) are currently implemented on the frontend for design and user experience purposes. Backend integration for these features can be added in future updates.
+
 # Future Improvements
+Backend integration for category filters
 Payment Integration 💳
 Booking System 🏨
 Chat Feature 💬
