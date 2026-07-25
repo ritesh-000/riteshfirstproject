@@ -182,8 +182,21 @@
 
 
 <div id="map" style="height:400px;"></div>
+<link
+  href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+  rel="stylesheet"
+/>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 
 <script>
+  const coordinates = <%- JSON.stringify(listing.geometry.coordinates) %>;
+  const mapToken = "<%= mapToken %>";
+  const locationName = "<%= listing.location %>";
+</script>
+
+<script src="/js/map.js"></script>
+<!-- <script>
     const coordinates = <%- JSON.stringify(listing.geometry.coordinates) %>;
 
     const mapToken = "<%= mapToken %>";
@@ -193,6 +206,6 @@
 <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
 <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
 
-<script src="/js/map.js"></script>
+<script src="/js/map.js"></script> -->
 
 
